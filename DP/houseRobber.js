@@ -14,7 +14,7 @@ function houseRobberTopDown(nums, i = 0, lookup = null) {
   }
 }
 
-function houseRobberBottomDown(nums) {
+function houseRobberBottomUp(nums) {
   let n = nums.length;
   let dp = [];
   for (let i = 0; i < n; i++) {
@@ -30,4 +30,4 @@ function houseRobberBottomDown(nums) {
 
 let nums = [1, 2, 3, 1];
 console.log(houseRobberTopDown(nums));
-console.log(houseRobberBottomDown(nums));
+console.log(houseRobberBottomUp(nums));

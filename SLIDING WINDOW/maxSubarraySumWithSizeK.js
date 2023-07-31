@@ -16,4 +16,4 @@ let arr = [4, 2, 1, 7, 8, 1, 2, 8, 1, 0];
 let k = 3;
 console.log(maxSubarraySumWithSizeK(arr, k));
 
-// SLIDING WINDOW
+// SLIDING WINDOW WITH STATIC WINDOW SIZE
